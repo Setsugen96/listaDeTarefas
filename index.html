@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+</head>
+<body>
+    
+
+    <main>
+
+        <div class="containerTarefas">
+            <h1>Lista de Tarefas</h1>
+            <div class="tarefas">
+
+            </div>
+
+        </div>
+
+    
+        <input type="button" id="botaoLimparTarefas" value="Apagar tudo">
+        
+
+        <div class="containerAddTarefa">
+            <h1>Criar Tarefa</h1>
+
+            <form class="criarTarefa">
+                <div>
+                    <label for="tarefaText" id="labeltarefa" class="labelAdd">Tarefa</label>
+                    <input type="text" id="tarefaText" name="tarefaText">
+                </div>
+                <div>
+                    <label for="tarefaData" class="labelAdd">Data</label>
+                    <input type="text" id="tarefaData" name="tarefaData">
+                </div>
+                <div>
+                    <label for="tarefaHorario" class="labelAdd">Horário</label>
+                    <input type="text" id="tarefaHorario" name="horarioTarefa">
+                </div>
+                
+            </form>
+
+            <div class="containerBotoes">
+                <input type="button" id="botaoSalvar" value="Salvar">
+                <input type="button" id="botaoLimpar" value="Limpar">
+            </div>  
+        
+        </div>
+
+    </main>
+
+
+    <script src="/javascript/script.js"></script>
+</body>
+</html>

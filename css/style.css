@@ -1,0 +1,140 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+
+body{
+    background-color: #19c744cc;
+}
+
+main{
+    display: flex;
+    
+
+}
+
+
+.containerTarefas{
+    text-align: center;
+    border: 4px solid #000;
+    background-color: #eee;
+    border-radius: 8px;
+    height: 700px;
+    width: 400px;
+    margin: 60px;
+    overflow: auto;
+    align-items: flex-start;
+}
+
+
+.containerAddTarefa {
+    text-align: center;
+    border: 4px solid #000;
+    background-color: #eee;
+    border-radius: 8px;
+    height: 380px;
+    margin: 100px auto;
+    padding: 10px;
+    width: 700px;
+    box-sizing: border-box;
+}
+
+.criarTarefa {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.criarTarefa div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.labelAdd {
+    display: flex;
+    width: 100px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+#tarefaText {
+    width: 500px;
+    height: 30px;
+    border: 4px solid #000;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+#tarefaData {
+    width: 100px;
+    height: 30px;
+    border: 4px solid #000;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+#tarefaHorario{
+    width: 50px;
+    height: 30px;
+    border: 4px solid #000;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.containerBotoes { 
+    margin-top: 8px; 
+} 
+
+#botaoSalvar, #botaoLimpar{
+    background-color: #04AA6D; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer;
+    margin: 5px; 
+}
+ 
+
+
+#botaoSalvar:active, #botaoLimpar:active{
+    background-color: rgb(5, 73, 33); 
+} 
+
+
+.tarefas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tarefa{
+    font-size: 20px;
+    margin: 10px;
+    border: solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#botaoLimparTarefas {
+    position: absolute;
+    top: 85%;
+    left: 9%;
+    background-color: #010803; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    
+}
+
+.concluido {
+    text-decoration: line-through;
+}
